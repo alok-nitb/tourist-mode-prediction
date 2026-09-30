@@ -1,5 +1,7 @@
 # Tourist Mode Predictor
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23067833.svg)](https://doi.org/10.5281/zenodo.23067833)
+
 A single-page React application that predicts a tourist's transport mode behavior — and related satisfaction, safety, and improvement insights — from three simple demographic inputs: **gender, age group, and monthly income**. Predictions are derived entirely from a primary survey of **107 tourist respondents** and run fully client-side, with a one-click export to a formatted PDF report.
 
 This project was built as a way to turn a raw tourist-transport survey into something interactive and explorable, rather than a static spreadsheet of averages.
@@ -228,9 +230,7 @@ The aggregated version of this data — grouped by demographic combination, with
 
 The following is a ready-to-adapt statement for a paper/thesis referencing this project:
 
-> The tourist mode-choice prediction tool described in this work is implemented as a client-side web application and is publicly available in the project's GitHub repository, distributed under the MIT License (see `LICENSE`). Installation and execution instructions are provided in the repository's `README.md`. The underlying survey data (n = 107 tourist respondents) collected no directly identifying information; the only non-substantive field was an anonymous form-submission timestamp, which is excluded from the aggregated dataset embedded in the application. No separate MNL (multinomial logit) estimation script is included in this repository; the application performs demographic-segmented lookup and descriptive aggregation of survey responses rather than parametric choice modelling. Any MNL utility equations or probabilities reported elsewhere in this work were computed using a separate analysis not part of this codebase, and the exact software/package/version used for that analysis should be confirmed and cited independently of this repository.
-
-Adjust the wording above once the repository has also been archived on Zenodo with a DOI (see the project's separate checklist item for that step), and insert the DOI where relevant.
+> The tourist mode-choice prediction tool described in this work is implemented as a client-side web application, deployed as a web application, and is publicly available through the project repository (https://github.com/alok-nitb/tourist-mode-prediction), distributed under the MIT License (see `LICENSE`). A snapshot of the repository has been archived on Zenodo and is assigned the DOI **10.5281/zenodo.23067833** (https://doi.org/10.5281/zenodo.23067833). Installation and execution instructions are provided in the repository's `README.md`. The underlying survey data (n = 107 tourist respondents) collected no directly identifying information; the only non-substantive field was an anonymous form-submission timestamp, which is excluded from the aggregated dataset embedded in the application. No separate MNL (multinomial logit) estimation script is included in this repository; the application performs demographic-segmented lookup and descriptive aggregation of survey responses rather than parametric choice modelling. Any MNL utility equations or probabilities reported elsewhere in this work were computed using a separate analysis not part of this codebase, and the exact software/package/version used for that analysis should be confirmed and cited independently of this repository.
 
 ## Limitations
 
